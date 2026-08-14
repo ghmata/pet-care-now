@@ -46,10 +46,10 @@ const Contact = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Telefone</h3>
                 <a 
-                  href="tel:+5519999999999" 
+                  href="tel:+5519983989800" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  (19) 99999-9999
+                  (19) 98398-9800
                 </a>
               </div>
             </div>
@@ -70,18 +70,18 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Hours */}
+            {/* Plantão */}
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-urgent/10 rounded-lg flex items-center justify-center flex-shrink-0">
                 <Clock className="w-5 h-5 text-urgent" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Horário</h3>
+                <h3 className="font-semibold text-foreground mb-1">Plantão</h3>
                 <p className="text-urgent font-semibold text-lg">
-                  24 HORAS
+                  Plantão pelo telefone 19 983989800
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  Todos os dias, incluindo feriados
+                  Atendimento de emergência e suporte
                 </p>
               </div>
             </div>
@@ -90,7 +90,7 @@ const Contact = () => {
             <div className="pt-4">
               <Button variant="whatsapp" size="xl" className="w-full sm:w-auto" asChild>
                 <a
-                  href="https://wa.me/5519999999999?text=Olá! Vim pelo site e gostaria de informações."
+                  href="https://wa.me/5519983989800?text=Olá! Vim pelo site e gostaria de informações."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -19,8 +19,6 @@ const Header = () => {
 
   const navLinks = [
     { href: isHomePage ? '#servicos' : '/#servicos', label: 'Serviços' },
-    { href: isHomePage ? '#equipe' : '/#equipe', label: 'Equipe' },
-    { href: '/blog', label: 'Blog' },
     { href: isHomePage ? '#contato' : '/#contato', label: 'Contato' },
   ];
 
@@ -49,7 +47,7 @@ const Header = () => {
             </div>
             <div className="hidden sm:block">
               <span className="font-semibold text-foreground">Clínica Veterinária</span>
-              <span className="block text-xs text-urgent font-medium">24 HORAS</span>
+              <span className="block text-xs text-urgent font-medium">Plantão: (19) 98398-9800</span>
             </div>
           </Link>
 
@@ -82,13 +80,13 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+5519999999999" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
+            <a href="tel:+5519983989800" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
               <Phone className="w-4 h-4" />
-              <span>(19) 99999-9999</span>
+              <span>(19) 98398-9800</span>
             </a>
             <Button variant="whatsapp" size="sm" asChild>
               <a
-                href="https://wa.me/5519999999999?text=Olá! Vim pelo site e gostaria de informações."
+                href="https://wa.me/5519983989800?text=Olá! Vim pelo site e gostaria de informações."
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -138,7 +136,7 @@ const Header = () => {
               <div className="px-4 pt-4 border-t border-border mt-2">
                 <Button variant="whatsapp" className="w-full" asChild>
                   <a
-                    href="https://wa.me/5519999999999?text=Olá! Vim pelo site e gostaria de informações."
+                    href="https://wa.me/5519983989800?text=Olá! Vim pelo site e gostaria de informações."
                     target="_blank"
                     rel="noopener noreferrer"
                   >

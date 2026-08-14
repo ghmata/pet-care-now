@@ -16,18 +16,18 @@ const Hero = () => {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-urgent/10 text-urgent rounded-full text-sm font-medium">
               <span className="w-2 h-2 bg-urgent rounded-full animate-pulse" />
-              Atendimento 24h
+              Plantão pelo telefone 19 983989800
             </div>
 
             {/* Title */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                 Clínica Veterinária{' '}
-                <span className="text-primary">24 Horas</span>
+                <span className="text-primary">Especializada</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
                 Cuidado especializado para seu pet, disponível a qualquer momento. 
-                Equipe qualificada e estrutura completa.
+                Estrutura completa e profissionais dedicados.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="xl" asChild>
                 <a
-                  href="https://wa.me/5519999999999?text=Olá! Vim pelo site e gostaria de informações."
+                  href="https://wa.me/5519983989800?text=Olá! Vim pelo site e gostaria de informações."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2"
@@ -58,7 +58,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-success rounded-full" />
-                Equipe especializada
+                Profissionais qualificados
               </div>
             </div>
           </div>
@@ -68,10 +68,10 @@ const Hero = () => {
             <div className="aspect-[4/3] bg-muted rounded-2xl border-2 border-dashed border-border flex flex-col items-center justify-center text-muted-foreground">
               <div className="w-20 h-20 bg-muted-foreground/20 rounded-full flex items-center justify-center mb-4">
                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <p className="font-medium text-center px-8">Foto da Equipe</p>
+              <p className="font-medium text-center px-8">Foto da Clínica</p>
               <p className="text-sm mt-1">Aguardando imagem real</p>
             </div>
             

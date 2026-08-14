@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Clock } from 'lucide-react';
 
 const Footer = () => {
@@ -20,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2 text-urgent mb-4">
               <Clock className="w-4 h-4" />
-              <span className="font-semibold">Atendimento 24 Horas</span>
+              <span className="font-semibold">Plantão pelo telefone 19 983989800</span>
             </div>
             <p className="text-sm text-background/70">
               Cuidado especializado para seu pet, a qualquer hora.
@@ -37,16 +36,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#equipe" className="hover:text-background transition-colors">
-                  Equipe
-                </a>
-              </li>
-              <li>
-                <Link to="/blog" className="hover:text-background transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
                 <a href="#contato" className="hover:text-background transition-colors">
                   Contato
                 </a>
@@ -59,8 +48,8 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
-                <a href="tel:+5519999999999" className="hover:text-background transition-colors">
-                  (19) 99999-9999
+                <a href="tel:+5519983989800" className="hover:text-background transition-colors">
+                  (19) 98398-9800
                 </a>
               </li>
               <li>
